@@ -1196,7 +1196,7 @@ GameObject:
   - component: {fileID: 4958135718463014798}
   - component: {fileID: 3600292194349182650}
   - component: {fileID: 4721612370091700390}
-  - component: {fileID: 3594958169877896528}
+  - component: {fileID: -6377398995878201486}
   m_Layer: 0
   m_Name: PlayerPrefab
   m_TagString: Untagged
@@ -1212,7 +1212,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3221641037553387235}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.254, y: 0.955, z: 0.234}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
@@ -1291,7 +1291,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &3594958169877896528
+--- !u!114 &-6377398995878201486
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1300,12 +1300,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 3221641037553387235}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 536f7da26c250aa4896fd876cee5bfaf, type: 3}
+  m_Script: {fileID: 11500000, guid: 989f8f9c1383e374a9024fa5d6e6ca9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player_Movement
   flashMaterial: {fileID: 2100000, guid: 9a57eb6190db977429de68e9f5aa4432, type: 2}
   flashDuration: 0.15
-  speed: 5
+  speed: 6
   attackPrefab: {fileID: 3575796743355550387, guid: e5346b50fb51ac3439985c7a761978a4, type: 3}
   deadCatPrefab: {fileID: 4214528121610486370, guid: e386bc5a9a4021e42b47699432ec5f35, type: 3}
   animator: {fileID: 4958135718463014798}
