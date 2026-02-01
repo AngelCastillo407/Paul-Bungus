@@ -10,7 +10,7 @@ public class Player_Movement : MonoBehaviour
     private Renderer[] renderers;
     private Material[][] originalMaterials;
 
-    private int healthPoints = 3;
+    private int healthPoints = 6;
 
     private Rigidbody rb;
     public float speed = 20f;
@@ -139,6 +139,16 @@ public class Player_Movement : MonoBehaviour
 
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
+
+        if (horizontalInput != 0 || verticalInput != 0)
+        {
+            animator.SetBool("Running", true);
+        } 
+        else
+        {
+            animator.SetBool("Running", false);
+        }
+
         Vector3 movement = new Vector3(horizontalInput, 0f, verticalInput);
 
         if (movement.magnitude > 1f)

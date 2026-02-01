@@ -95,7 +95,7 @@ public class Enemy_Movement : MonoBehaviour
 
             if (healthPoints == 0)
             {
-                Destroy(gameObject, 0.4f);
+                Destroy(gameObject, 0.25f);
                 return;
             }
 
