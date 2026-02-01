@@ -70,24 +70,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1164020010259161636, guid: 9e83e5cd8e6239b478630ca37cecc2d5, type: 3}
       propertyPath: m_LocalScale.z
-      value: 9.7
+      value: 24.150194
       objectReference: {fileID: 0}
     - target: {fileID: 1164020010259161636, guid: 9e83e5cd8e6239b478630ca37cecc2d5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.072
+      value: -0.0772
       objectReference: {fileID: 0}
     - target: {fileID: 1164020010259161636, guid: 9e83e5cd8e6239b478630ca37cecc2d5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.032
+      value: 0.016
       objectReference: {fileID: 0}
     - target: {fileID: 1164020010259161636, guid: 9e83e5cd8e6239b478630ca37cecc2d5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.02
+      value: -0.0314
       objectReference: {fileID: 0}
     - target: {fileID: 2071959697603908601, guid: 9e83e5cd8e6239b478630ca37cecc2d5, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 8f29c2e31efdf484a91da620e66a1dee, type: 2}
+      objectReference: {fileID: 8748892135801146194, guid: 9e83e5cd8e6239b478630ca37cecc2d5, type: 3}
     - target: {fileID: 2625411145376514406, guid: 9e83e5cd8e6239b478630ca37cecc2d5, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -109,7 +109,7 @@ PrefabInstance:
       addedObject: {fileID: -6528675404225492066}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9e83e5cd8e6239b478630ca37cecc2d5, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8771596651431407558}
+      addedObject: {fileID: 7446793142124029025}
   m_SourcePrefab: {fileID: 100100000, guid: 9e83e5cd8e6239b478630ca37cecc2d5, type: 3}
 --- !u!1 &1516455613239433118 stripped
 GameObject:
@@ -143,7 +143,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8771596651431407558
+--- !u!114 &7446793142124029025
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
